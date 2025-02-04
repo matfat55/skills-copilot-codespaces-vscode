@@ -73,3 +73,5 @@ app.put('/comments/:id', (req, res) => {
 
 // start server
 app.listen(port, () => {
+  console.log(`Server running at http://localhost:${port}`);
+}
